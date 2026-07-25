@@ -1,0 +1,20 @@
+take one feature say frequency, and apply all the univariate methods of outlier detection, 
+calculate outliers using mahalanobis distance, assume it as a benchmark 
+now compare which distribution correctly gives the outliers 
+now find with considering multiple features and then check 
+
+mahalanobis
+find on the whole data and store in a dataframe 
+labels of the df: tc, f, avg, maha
+
+univariate
+z score 
+labels of the df: tc, f, avg, z score_tc
+
+iqr
+
+mad
+
+terms that flagged by univariate but not by mahalanobis - false positive
+terms that flagged by mahalanobis but not by univariate - false negative
+
